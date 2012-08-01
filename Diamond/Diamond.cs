@@ -92,14 +92,14 @@ namespace CodeDojoDiamond
 
         public string doSpace(int param1, string param2)
         {
-            string sEspaco = "";
+            string space = "";
             
             for (int i = 0; i < param1; i++)
             {
-                sEspaco += param2;    
+                space += param2;    
             }
 
-            return sEspaco;
+            return space;
 
         }
 
