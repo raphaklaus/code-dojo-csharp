@@ -8,10 +8,11 @@ namespace CodeDojoJokenpo
     public class Judge
     {
         
-		public IGameObj rock;
-		public IGameObj paper;
-		public IGameObj scissors;
-		public IGameObj draw;
+	public IGameObj rock;
+	public IGameObj paper;
+	public IGameObj scissors;
+	public IGameObj draw;
+        
         public string result;
 
         public string doJudge(string param1, string param2)
